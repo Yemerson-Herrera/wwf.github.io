@@ -1,0 +1,191 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+      width: 85px;
+      height: auto;
+  }
+
+  body {
+    background-color: white; 
+    width: 100%;
+  }
+
+  /* slider */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  
+
+.portada{
+    width: 100%;
+    height: 900px;
+    background-image:url("../imgs/gatete.jpg");
+  }
+
+.inicial {
+    width: 480px;
+    height: 400px;
+    position: absolute;
+	/*background: #A6090C;*/
+    margin: 250px 0 0 50px;
+    padding: 10px;}
+
+.inicial h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+  padding: 0 0 0 20px;
+}
+
+.inicial h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #e57231;
+  margin: 5px 0 0 20px;
+}
+
+.inicial a{
+  display: block;
+  width: 250px;
+  text-align: center;
+  height: 60px;
+  font-size: 20px;
+  padding: 20px;
+  background-color:#f7c37a;
+  color:#001a3c;
+  font-weight: 700;
+  border-radius: 2em;
+  margin: 20px 100px;
+}
+
+
+.introduccion {
+  width: 85%;
+  height: auto;
+  padding: 0 20px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.introduccion h1 {
+  color: #0d4074;
+  margin: 50px 0;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.introduccion p {
+  color: #0d4074;
+  font-family: 'Raleway', sans-serif; 
+  width: 65%;
+  margin: 0 auto;
+}
+
+.imagen {
+  padding: 0 0 10px 0;
+  margin: 0;
+  background-color: #00183a; 
+}
+
+.masmenos {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cont{
+	width: 100%;
+	height: auto;
+	background-color: #00183a;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.cedla1, .cedla2, .cedla3{
+	width: 400px;
+	height: auto;
+	margin: 5px 15px;
+}
+
+.abajo {
+  width: 100px;
+  margin: 0 160px;
+}
+
+
+.cedla1 i {
+  font-size: 25px;
+}
+
+.cedla1 li {
+  list-style: none;
+  display: inline;
+}
+
+.cedla2 p {
+  text-align: center;
+  color: #8c9fc0;
+  font-size: 10px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+.cedla3 p {
+  color: #8c9fc0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.cedla3 {
+  text-align: right;
+  color: #8c9fc0;
+
+}
+.cedla3 h6 {
+  font-size: 8px;
+  font-family: 'Raleway', sans-serif; 
+}
+

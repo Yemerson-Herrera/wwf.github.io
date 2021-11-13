@@ -1,0 +1,152 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+      width: 85px;
+      height: auto;
+  }
+
+  body {
+    background-color:white; 
+    width: 100%;
+  }
+
+.cont{
+	width: 100%;
+	height: auto;
+	background-color: #00183a;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.cedla1, .cedla2, .cedla3{
+	width: 400px;
+	height: auto;
+	margin: 5px 15px;
+}
+
+.abajo {
+  width: 100px;
+  margin: 0 160px;
+}
+
+
+.cedla1 i {
+  font-size: 25px;
+}
+
+.cedla1 li {
+  list-style: none;
+  display: inline;
+}
+
+.cedla2 p {
+  text-align: center;
+  color: #8c9fc0;
+  font-size: 10px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+.cedla3 p {
+  color: #8c9fc0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.cedla3 {
+  text-align: right;
+  color: #8c9fc0;
+
+}
+.cedla3 h6 {
+  font-size: 8px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.portada {
+  width: 100%;
+  height: 400px;
+  background-image: url(../imgs/portada.jpg);
+}
+
+.inicial{
+  padding: 120px 100px
+}
+
+.inicial h1 {
+  font-family:'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+
+.inicial h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+
+.parrafo p{
+  color: #0d4074;
+  font-family: 'Raleway', sans-serif;
+  margin: 50px auto;
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.boton {
+  width: 175px;
+  padding:15px;
+  border-radius:14px;
+  background-color: #f09610;
+  margin: 30px  auto;
+}
+
+.boton a {
+  color: #101a31;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight:700;
+  display: block;
+}
+
+.boton a:hover { 
+  color:white;
+}
+
+.galeria{
+    width: 100%;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item img {
+    width: 90%;
+}
+.item {
+    width: 40%;
+    padding-bottom: 3%; /* Same as width, sets height */
+    margin: 1%;
+}

@@ -1,0 +1,176 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+      width: 85px;
+      height: auto;
+  }
+
+  body {
+    background-color:white; 
+    width: 100%;
+  }
+
+.cont{
+	width: 100%;
+	height: auto;
+	background-color: #00183a;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.cedla1, .cedla2, .cedla3{
+	width: 400px;
+	height: auto;
+	margin: 5px 15px;
+}
+
+.abajo {
+  width: 100px;
+  margin: 0 160px;
+}
+
+
+.cedla1 i {
+  font-size: 25px;
+}
+
+.cedla1 li {
+  list-style: none;
+  display: inline;
+}
+
+.cedla2 p {
+  text-align: center;
+  color: #8c9fc0;
+  font-size: 10px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+.cedla3 p {
+  color: #8c9fc0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.cedla3 {
+  text-align: right;
+  color: #8c9fc0;
+
+}
+.cedla3 h6 {
+  font-size: 8px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.portada {
+  width: 100%;
+  height: 400px;
+  background-image: url(../imgs/portada.jpg);
+}
+
+.inicial{
+  padding: 120px 100px
+}
+
+.inicial h1 {
+  font-family:'Oswald', sans-serif;
+  font-size: 50px;
+  color:#f09610;
+  display: block;
+  text-align: center;
+}
+
+.inicial h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+
+.inicial h1 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #f09610;
+    text-align: left;
+  }
+
+.parrafo p{
+  color: #0d4074;
+  font-family: 'Raleway', sans-serif;
+  margin: 50px auto;
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.blue {
+    width: 100%;
+    height: 650px;
+    background-image: url(../imgs/oceans.jpg);
+  }
+
+.blue h1 {
+    font-family:'Raleway', sans-serif;
+    font-size: 60px;
+    color:white;
+    text-align: left;
+    padding-left: 270px;
+  }
+
+  .introduccion {
+    width: 85%;
+    height: auto;
+    padding: 0 20px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .informacion {
+    width: 85%;
+    height: auto;
+    padding: 0 20px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .informacion h2 {
+    color: #0d4074;
+    margin: 50px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  .informacion p{
+    color: #0d4074;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px auto;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+  }
+
+  .parrafos p{
+    color: #0d4074;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px auto;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+  }

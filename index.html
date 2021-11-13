@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWF</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,700&family=Zen+Kaku+Gothic+New:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">  
+    <link rel="shortcut icon" href= "imgs/LOGO.jpg">  
+  </head>
+
+
+<body>
+    <!--navegador-->
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="index.html"><img src="imgs/LOGO-WWF-NEGATIVO-SIN-FONDO.png" alt="Logo"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="informate.html">INFORMATE</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="campaña.html">CAMPAÑA</a></li>
+                <li><a href="contacto.html">COLABORA</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+    <div class="portada">
+     <div class="inicial">
+          <h2>"Pretender que el <br>
+            cambio <br>
+            climático no es real,<br>
+            no hara<br>
+          </h2>
+          <h1>QUE DESAPAREZCA"</h1>
+          <a href="contacto.html">Colaborar con WWF</a></div>	
+     </div>
+
+
+
+    <!-- Swiper -->
+     <!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="imgs/tortuga-slider.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/slider-22.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/cabballo-slider-3.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/pex-slider-4.png" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+      </div>
+
+<div class="introduccion">
+  <h1>SOMOS LA MAYOR ORGANIZACIÓN INDEPENDIENTE DE CONSERVACIÓN
+    DE LA NATURALEZA</h1>
+  <p>Somos <b>una ONG ambiental con presencia en más de 100 países, entre ellos España,</b> donde
+    realizamos trabajo sobre el terreno para preservar la riqueza natural de nuestro territorio.
+    Conoce más sobre nuestro trabajo. Estos son los programas de conservación que componen<b>
+    nuestro trabajo en defensa del medio ambiente.</b></p>
+</div>
+
+<div class="imagen">
+<img class="masmenos" src="imgs/masmenos.png">
+</div>
+
+<div class="cont">
+	<div class="cedla1">
+     <ul>
+       <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+       <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+ </ul> 
+</div>
+
+  
+	<div class="cedla2"><img class="abajo" src="imgs/LOGO-WWF-NEGATIVO-SIN-FONDO.png">
+  <p><i>''Por un futuro en el que los humanos
+    vivan en armonía con la naturaleza.''
+  </i></p></div>
+	
+  <div class="cedla3">
+    <p>Cookies</p>
+    <p>Conecta</p>
+    <p>Política de privacidad</p>
+
+    <h6>Asociación para la defensa de la naturaleza WWF/ADENA. Gran Vía de San Francisco, 8-D. (28005 Madrid) NIF G-28766319. Registro Nacional de 
+      Asociaciones del Ministerio del Interior Nº7.855 info@wwf.es / 91 354 05 78 Imágenes y gráficas ©WWF. Texto disponible Creative Commons</h6>
+  </div>
+</div>
+
+
+<!--Javascript-->    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+ <!--fin slider-->
+ <!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</body>
+</html>
